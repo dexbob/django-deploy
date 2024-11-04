@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-&*)$l9e7c2l@s5hpyr@tpktx#r8l8_$@57u1lw%5_7q*m(%19^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', 'https://django-deploy-xkhx.onrender.com/']
 
 
 # Application definition
@@ -58,6 +58,7 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [  
     "http://localhost:5173",
     "http://127.0.0.1:5173",
+    'https://react-deploy-two-green.vercel.app/',
 ]
 
 ROOT_URLCONF = "post.urls"
